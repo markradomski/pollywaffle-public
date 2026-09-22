@@ -35,44 +35,41 @@
      applies its own stroke-based indicator for real keyboard users. */
   outline: none;
   /* The expand/contract presentation (see ExpandedBalloonContent) is
-     driven by a CSS `transform` (translate + scale), computed in
-     BalloonRace.tsx — NOT by transitioning the circle's r/cx/cy
-     attributes directly. Animating r/cx/cy forces the browser to re-run
-     layout and repaint the affected screen region on every single frame,
-     and that repaint cost scales with the balloon's on-screen area —
-     which is exactly why that approach was visibly laggier on large
-     balloons than small ones. `transform` is compositor-only (GPU,
-     no layout/repaint), so the cost stays flat regardless of size.
-     `transform-box`/`transform-origin` make the scale pivot the circle's
-     own current center regardless of where cx/cy actually sit, so a
-     plain `translate(dx, dy) scale(s)` (dx/dy in real, unscaled pixels —
-     see BalloonRace.tsx) is enough with no extra pivot math there.
-     Settled at 600ms on a smooth, symmetric ease-in-out curve (Material
-     Design's "standard" easing) rather than a pure ease-out — a pure
-     ease-out curve looks right for expansion (quick start, gentle
-     settle) but reads as slightly abrupt at the very start of
-     contraction; ease-in-out feels smooth and physical in both
-     directions without needing separate per-direction timing. Still
-     clearly decoupled from the layout-to-layout useLayoutTransition
-     duration (400ms default). fill-opacity/stroke-width stay quick
-     (120ms) since they're a subtle emphasis cue, not the physical size
-     transformation. */
-  transform-box: fill-box;
-  transform-origin: center;
-  /* Promotes every balloon to its own GPU compositing layer up front,
-     rather than on-demand the moment a transform transition first starts.
-     Without this, the layer-promotion cost for a balloon that has never
-     been transformed before is paid synchronously at the start of its
-     first transition — for a dense scene (many overlapping siblings,
-     each needing repaint to reveal the newly-uncovered area behind a
-     growing balloon), that cost can exceed a frame budget and eat
-     visibly into the declared 600ms, making the transition appear to
-     skip straight to its end state instead of animating through it. */
-  will-change: transform;
+     driven by transitioning the circle's own r/cx/cy attributes directly
+     — a real CSS transition on those SVG geometry properties, computed in
+     BalloonRace.tsx (circleX/circleY/circleR). An earlier version instead
+     faked it with a `transform: translate() scale()`, specifically to
+     avoid r/cx/cy's layout+repaint cost — real for the *settle* animation
+     (motion/useLayoutTransition.ts), where potentially every balloon
+     animates at once, but negligible here, where exactly one balloon ever
+     transitions at a time. That transform approach turned out to have its
+     own, worse problem at this large a size change: browsers rasterize a
+     GPU-composited layer at its *starting* size and stretch that texture
+     for the rest of the transition, re-rasterizing partway through a
+     large scale-*up* to avoid visible blur — which read as the balloon
+     jerking forward right before it settled. Scaling down never showed
+     it (an existing texture already covers a smaller size fine), which
+     is what gave it away: contraction was smooth, only expansion jerked.
+     Transitioning r/cx/cy directly has no such artifact — the browser
+     just repaints the actual vector circle at each frame's real radius,
+     exactly like the already-smooth mount/layout-change animation.
+     Settled at 900ms — slowed from an earlier 600ms so the grow/shrink
+     reads as a deliberate, unhurried motion rather than a snap, paired
+     with BalloonRace.tsx's own HOVER_INTENT_DELAY_MS (a pause before
+     hover even starts expanding, so a brief pointer pass over a balloon
+     never triggers this now-longer animation at all). Still clearly
+     decoupled from the layout-to-layout useLayoutTransition duration
+     (400ms default). fill-opacity/stroke-width run a little slower too
+     (200ms, up from 120ms) — still a subtle emphasis cue rather than the
+     physical size transformation itself, but no longer finishing so much
+     earlier than the now-slower r/cx/cy transition that the two read as
+     out of sync. */
   transition:
-    fill-opacity 120ms ease,
-    stroke-width 120ms ease,
-    transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill-opacity 200ms ease,
+    stroke-width 200ms ease,
+    r 900ms cubic-bezier(0.4, 0, 0.2, 1),
+    cx 900ms cubic-bezier(0.4, 0, 0.2, 1),
+    cy 900ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .balloonExpanded {
