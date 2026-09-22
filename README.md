@@ -1,8 +1,8 @@
 # Pollywaffle
 
-A satirical Australian federal politician property-affordability
+An Australian federal politician property-affordability
 visualisation: balloon size is a politician's declared property count,
-vertical position is a satirical "years of buying a $22 smashed avocado on
+vertical position is a "years of buying a $22 smashed avocado on
 toast every day" affordability calculation, colour is party.
 
 Pollywaffle is built on **Balloon Race**, an independent, reusable
