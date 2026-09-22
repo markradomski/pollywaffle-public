@@ -26,6 +26,14 @@
   stroke: #fff;
   stroke-width: 1;
   cursor: pointer;
+  /* A tap/click focuses this element (tabIndex=0) without matching
+     :focus-visible (that only matches keyboard-driven focus in most
+     browsers) — so the browser's own default focus ring (an auto-width
+     outline, drawn as a rectangle around an SVG shape's bounding box
+     rather than following the circle) would otherwise still show on every
+     tap, most visible once a balloon expands. :focus-visible below still
+     applies its own stroke-based indicator for real keyboard users. */
+  outline: none;
   /* The expand/contract presentation (see ExpandedBalloonContent) is
      driven by a CSS `transform` (translate + scale), computed in
      BalloonRace.tsx — NOT by transitioning the circle's r/cx/cy
