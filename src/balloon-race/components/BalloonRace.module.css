@@ -1,0 +1,202 @@
+.container {
+  width: 100%;
+  min-height: 240px;
+  position: relative;
+}
+
+/* Horizontal orientation still measures its height from the parent (e.g. a
+   fixed-height card) via ResizeObserver, so it needs to actually fill that
+   parent height — unlike vertical orientation, which sizes itself to its
+   own (content/density-driven) SVG height instead. */
+.containerFillHeight {
+  height: 100%;
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  /* Height is set inline per-render (see BalloonRace.tsx): observed
+     container height for horizontal orientation, content/density-driven
+     for vertical — so this container (and the page) grows to fit a tall
+     Balloon Race instead of clipping or scrolling internally. */
+}
+
+.balloon {
+  fill-opacity: 0.75;
+  stroke: #fff;
+  stroke-width: 1;
+  cursor: pointer;
+  /* The expand/contract presentation (see ExpandedBalloonContent) is
+     driven by a CSS `transform` (translate + scale), computed in
+     BalloonRace.tsx — NOT by transitioning the circle's r/cx/cy
+     attributes directly. Animating r/cx/cy forces the browser to re-run
+     layout and repaint the affected screen region on every single frame,
+     and that repaint cost scales with the balloon's on-screen area —
+     which is exactly why that approach was visibly laggier on large
+     balloons than small ones. `transform` is compositor-only (GPU,
+     no layout/repaint), so the cost stays flat regardless of size.
+     `transform-box`/`transform-origin` make the scale pivot the circle's
+     own current center regardless of where cx/cy actually sit, so a
+     plain `translate(dx, dy) scale(s)` (dx/dy in real, unscaled pixels —
+     see BalloonRace.tsx) is enough with no extra pivot math there.
+     Settled at 600ms on a smooth, symmetric ease-in-out curve (Material
+     Design's "standard" easing) rather than a pure ease-out — a pure
+     ease-out curve looks right for expansion (quick start, gentle
+     settle) but reads as slightly abrupt at the very start of
+     contraction; ease-in-out feels smooth and physical in both
+     directions without needing separate per-direction timing. Still
+     clearly decoupled from the layout-to-layout useLayoutTransition
+     duration (400ms default). fill-opacity/stroke-width stay quick
+     (120ms) since they're a subtle emphasis cue, not the physical size
+     transformation. */
+  transform-box: fill-box;
+  transform-origin: center;
+  /* Promotes every balloon to its own GPU compositing layer up front,
+     rather than on-demand the moment a transform transition first starts.
+     Without this, the layer-promotion cost for a balloon that has never
+     been transformed before is paid synchronously at the start of its
+     first transition — for a dense scene (many overlapping siblings,
+     each needing repaint to reveal the newly-uncovered area behind a
+     growing balloon), that cost can exceed a frame budget and eat
+     visibly into the declared 600ms, making the transition appear to
+     skip straight to its end state instead of animating through it. */
+  will-change: transform;
+  transition:
+    fill-opacity 120ms ease,
+    stroke-width 120ms ease,
+    transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.balloonExpanded {
+  fill-opacity: 1;
+}
+
+.balloon:focus-visible {
+  outline: none;
+  stroke: #1a1a1a;
+  stroke-width: 3;
+}
+
+/*
+ * Phase 2.9: intentionally no stroke. Normal balloons (including
+ * highlighted/"one to watch" records) read as plain filled circles in
+ * the reference — a persistent black ring on ordinary, non-interactive
+ * state is exactly what this phase removes. The class stays applied in
+ * BalloonRace.tsx (highlight remains a real priority signal for label
+ * selection, see layout/selectLabeledNodes.ts) but carries no visual
+ * treatment of its own here.
+ */
+.balloonHighlight {
+}
+
+.balloonSelected {
+  stroke: #1a1a1a;
+  stroke-width: 3;
+  fill-opacity: 0.9;
+}
+
+.balloonActive {
+  /* Phase 2.9: the reference's normal/hover balloons read as plain
+     filled circles — size growth (see ExpandedBalloonContent) is
+     already a strong, sufficient hover signal on its own; a heavy black
+     ring on top of that reads as noise the reference doesn't have. */
+  fill-opacity: 0.95;
+}
+
+.balloonDimmed {
+  fill-opacity: 0.28;
+}
+
+.label {
+  font-size: 10px;
+  fill: #333;
+  pointer-events: none;
+  user-select: none;
+}
+
+.internalLabel {
+  pointer-events: none;
+  user-select: none;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  /* Stays mounted through an expand/collapse cycle (see BalloonRace.tsx —
+     internalLabelFit no longer depends on isExpandedNode) so this opacity
+     transition can smoothly fade it out/in instead of an instant unmount/
+     remount, which otherwise reads as a "flash" once the expanded content
+     takes over the same space. Mirrors ExpandedBalloonContent's own
+     reveal/fadeOut timing exactly, so collapse (label fading back in)
+     feels identical to expand (content fading in), just with the two
+     elements' roles swapped: fading IN uses the same 320ms ease-out with
+     a 200ms delay as .reveal, so it starts right as the expanded
+     content's own .fadeOut (160ms, no delay) finishes; fading OUT uses
+     that same 160ms ease-in with no delay so it's fully invisible before
+     .reveal's own 200ms delay lets the expanded content start appearing. */
+  opacity: 1;
+  transition: opacity 320ms ease-out 200ms;
+}
+
+.internalLabelHidden {
+  opacity: 0;
+  transition: opacity 160ms ease-in;
+}
+
+.internalLabelPrimary {
+  font-weight: 700;
+}
+
+.internalLabelSecondary {
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.axisLine {
+  stroke: #999;
+  stroke-width: 1;
+}
+
+.axisTick {
+  stroke: #999;
+  stroke-width: 1;
+}
+
+.axisLabel {
+  font-size: 11px;
+  fill: #666;
+}
+
+.referenceLine {
+  pointer-events: none;
+}
+
+.referenceLineStroke {
+  stroke: #b33;
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+}
+
+.referenceLineLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  fill: #b33;
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.error {
+  color: #a33;
+}

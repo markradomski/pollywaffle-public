@@ -1,0 +1,131 @@
+id,name,primaryvalue,category,type,metric_001,has_investment,rental_income_declared,chamber
+0,Michelle Ananda-Rajah,6,All listed residential/investment,,,y,Yes,Senate
+1,Tony Burke,6,"2 residential, 4 investment",,,y,yes,House of Representatives
+2,Andrew Charlton,5,5 residential investment properties,,,y,Yes,House of Representatives
+3,Colin Boyce,5,5 cattle grazing incl 2 leasehold,,,,,House of Representatives
+4,Deborah O'Neill,5,"1 residential, 4 investment",,,y,Yes,Senate
+5,Michelle Rowland,5,"2 residential investment, 3 investments inside a trust",,,y,,House of Representatives
+6,Terry Young,5,"2 residential, 3 investment",,,y,yes,House of Representatives
+7,Alison Byrnes,4,"2 residential, 1 storage unit, 1 for ""administration"" purposes",,,,No,House of Representatives
+8,Andrew Willcox,4,"1 residential, 3 as ""landlord""",,,y,"(No, but 3x ""landlord"" declared)",House of Representatives
+9,Bridget McKenzie,4,"1 residential, 2 investment, 1 residential/investment",,,y,Yes,Senate
+10,Darren Chester,4,"2 residential, 2 investment",,,y,,House of Representatives
+11,Julian Hill,4,"1 family residence, 1 residential lease, 1 residential/investment, 1 investment",,,y,,House of Representatives
+12,Kristy McBain,4,"2 residential, 2 investment",,,y,yes,House of Representatives
+13,Louise Miller-Frost,4,"2 residential, 2 investment",,,y,,House of Representatives
+14,Madeleine King,4,"3 residential, 1 investment",,,y,,House of Representatives
+15,Mark Dreyfus,4,"2 residential, 2 investment",,,y,,House of Representatives
+16,Meryl Swanson,4,"2 residential, 2 investment",,,y,,House of Representatives
+17,Milton Dick,4,"2 residential, 2 investment",,,y,,House of Representatives
+18,Nick McKim,4,"2 residential, 1 shack, 1 agricultural land",,,,No,Senate
+19,Rick Wilson,4,"2 farming properties, 1 residential, 1 investment",,,y,,House of Representatives
+20,Sarah Witty,4,"1 residential, 3 investment",,,y,yes,House of Representatives
+21,Sophie Scamps,4,"1 residential, 1 ""hobby farm"", 1 bush block, 1 investment",,,y,yes,House of Representatives
+22,Steve Georganas,4,"2 residential, 1 block of residential land in Greece, and ownership of a ""block of farm land (olive groves)"" in Greece",,,,,House of Representatives
+23,Susan Templeman,4,4 residential,,,,,House of Representatives
+24,Sussan Ley,4,"1 residential, 3 investment",,,y,No,House of Representatives
+25,Tanya Plibersek,4,"2 residential, 2 investment - including  1 in Slovenia",,,y,,House of Representatives
+26,Tony Zappia,4,"1 residential, share of a residential property, 2x shares of investment property",,,y,Yes,House of Representatives
+27,Allegra Spender,3,"residential, holiday house, estate asset",,,,,House of Representatives
+28,Carol Brown,3,"1 residential, 1 share in shack, 1 investment",,,y,No,Senate
+29,Catherine King,3,"1 residential, 2 investment",,,y,Yes,House of Representatives
+30,David Littleproud,3,"2 residential, 1 investment",,,y,,House of Representatives
+31,Elizabeth Watson-Brown,3,"1 residential, 1 share in investment, 1 share in holiday flat",,,y,,House of Representatives
+32,Garth Hamilton,3,"1 residential, 2 investment",,,y,Yes,House of Representatives
+33,Ged Kearney,3,"1 residential 1 investment 1 share in ""vacant land""",,,y,,House of Representatives
+34,Glenn Sterle,3,"1 residential, 1 investment, 1 residential/investment",,,y,No,Senate
+35,Helen Polley,3,"2 residential, 1 investment",,,y,yes,Senate
+36,Jason Wood,3,"1 residential, 1 investment, 1 commercial",,,y,,House of Representatives
+37,Jenny McAllister,3,"1 residential, 1 investment, 1 rural property",,,y,yes,Senate
+38,Jess Teesdale,3,"1 block of land, 2x one-third shares in investment properties",,,y,yes,House of Representatives
+39,Jess Walsh,3,"2 residential, 1 investment",,,y,yes,Senate
+40,Karen Grogan,3,"1 residential, 2 investment",,,y,Yes,Senate
+41,Kate Thwaites,3,"2 residential, 1 investment",,,y,Yes,House of Representatives
+42,Kevin Hogan,3,"2 residential, 1 investment",,,y,,House of Representatives
+43,Lisa Darmanin,3,"2 residential, 1 investment",,,y,Yes,Senate
+44,Marielle Smith,3,3 residential,,,,,Senate
+45,Michaelia Cash,3,"2 residential, 1 investment",,,y,Yes,Senate
+46,Penny Wong,3,"2 residential, 1 ""future residential""",,,y,,Senate
+47,Raff Ciccone,3,"1 residential, 2 investment",,,y,Yes,Senate
+48,Richard Marles,3,"2 residential, 1 investment",,,y,No,House of Representatives
+49,Sarah Henderson,3,"2 residential, 1 investment",,,y,Yes,Senate
+50,Scott Buchholz,3,"2 residential, 1 investment",,,y,,House of Representatives
+51,Sue Lines,3,"2 residential, 1 private use",,,,,Senate
+52,Tania Lawrence,3,"1 residential, 1 investment, 1 business",,,y,,House of Representatives
+53,Ted O’Brien,3,2 residential and 1 investment,,,y,,House of Representatives
+54,Tony Pasin,3,"2 residential, 1 farmland",,,,,House of Representatives
+55,Wendy Askew,3,"2 residential, 1 investment",,,y,yes,Senate
+56,Ali France,2,"1 residential, 1 investment",,,y,,House of Representatives
+57,Amanda Rishworth,2,"1 residential, 1 investment",,,y,,House of Representatives
+58,Andrew Gee,2,"2 ""rental""",,,,yes,House of Representatives
+59,Andrew Wilkie,2,"1 residential, 1 Holiday residential",,,,,House of Representatives
+60,Anika Wells,2,"1 residential, 1 rental property",,,y,yes,House of Representatives
+61,Anne Stanley,2,"1 residential, 1 investment",,,y,,House of Representatives
+62,Anne Urquhart,2,"1 residential,1 ""block of land""",,,,,House of Representatives
+63,Anne Webster,2,2 residential,,,,,House of Representatives
+64,Anthony Albanese,2,2 investment,,,y,Yes,House of Representatives
+65,Ash Ambihaipahar,2,"1 residential, 1 investment",,,y,,House of Representatives
+66,Barnaby Joyce,2,2 residential,,,,,House of Representatives
+67,Ben Small,2,2 residential,,,,,House of Representatives
+68,Cameron Caldwell,2,"1 residential, 1 investment",,,y,Yes,House of Representatives
+69,Carol Berry,2,"1 residential, 1 investment",,,y,yes,House of Representatives
+70,Cassandra Fernando,2,2 residential,,,,,House of Representatives
+71,Chris Bowen,2,"1 residential, 1 holiday/investment",,,y,,House of Representatives
+72,Dan Tehan,2,"1 residential, 1 investment",,,y,Yes,House of Representatives
+73,David Pocock,2,"1 residential, 1 share in investment",,,y,No income,Senate
+74,Dean Smith,2,2 residential,,,,,Senate
+75,Don Farrell,2,2 residential,,,,,Senate
+76,Emma McBride,2,"1 residential, 1 investment",,,y,yes,House of Representatives
+77,Fatima Payman,2,2 residential,,,,,Senate
+78,Fiona Phillips,2,"1 residential, 1 rural land",,,,No,House of Representatives
+79,Helen Haines,2,"1 residential, 1 investment",,,y,,House of Representatives
+80,James Paterson,2,"1 residential, 1 investment",,,y,Yes,Senate
+81,Jamie Chaffey,2,"1 residential, 1 investment",,,y,,House of Representatives
+82,Jason Clare,2,"1 residential, 1 investment",,,y,,House of Representatives
+83,Jim Chalmers,2,2 residential,,,,,House of Representatives
+84,Josh Dolega,2,"1 residential, 1 residential for sale",,,,,Senate
+85,Josh Wilson,2,"1 residential, 1 investment",,,y,yes,House of Representatives
+86,Julie Collins,2,2 residential,,,,,House of Representatives
+87,Julie-Ann Campbell,2,"1 residential, 1 investment",,,y,yes,House of Representatives
+88,Katy Gallagher,2,"1 residential, 1 investment",,,y,,Senate
+89,Leon Rebello,2,2 residential,,,,,House of Representatives
+90,Libby Coker,2,2 residential,,,,,House of Representatives
+91,Lisa Chesters,2,2 residential,,,,,House of Representatives
+92,Malarndirri McCarthy,2,"1 residential, 1 investment, and a traditional owner claim in 6 claims",,,y,yes,Senate
+93,Mary Aldred,2,"1 residential, 1 investment",,,y,No,House of Representatives
+94,Mehreen Faruqi,2,"1 residential, 1 investment",,,y,Yes,Senate
+95,Melissa Price,2,2 residential,,,,,House of Representatives
+96,Michael McCormack,2,"1 residential, 1 investment",,,y,,House of Representatives
+97,Michelle Landry,2,2 residential,,,,,House of Representatives
+98,Mike Freelander,2,2 residential,,,,,House of Representatives
+99,Nita Green,2,"1 residential, 1 investment",,,y,No,Senate
+100,Pat Conroy,2,2 residential,,,,,House of Representatives
+101,Pauline Hanson,2,2 personal (residential?),,,,,Senate
+102,Penny Allman-Payne,2,"1 residential, 1 investment",,,y,No,Senate
+103,Peter Khalil,2,2 investment,,,y,yes,House of Representatives
+104,Phil Thompson,2,2 residential,,,,,House of Representatives
+105,Rebekha Sharkie,2,"1 residential, 1 investment",,,y,,House of Representatives
+106,Renee Coffey,2,"1 residential, 1 investment",,,y,Yes,House of Representatives
+107,Richard Colbeck,2,"1 residential, 1 investment",,,y,Yes,Senate
+108,Rob Mitchell,2,"1 residential, 1 holiday home",,,,,House of Representatives
+109,Ross Cadell,2,"1 residential, 1 work accommodation",,,,,Senate
+110,Sally Sitou,2,"1 residential, 1 investment",,,y,Yes,House of Representatives
+111,Sam Lim,2,"1 residential, 1 family home (Malaysia)",,,,,House of Representatives
+112,Sharon Claydon,2,2 residential,,,,,House of Representatives
+113,Shayne Neumann,2,2 investment,,,y,Yes,House of Representatives
+114,Slade Brockman,2,2 residential,,,,,Senate
+115,Steph Hodgins-May,2,"1 residential, 1 farm joint held with sibling",,,,Yes,Senate
+116,Susan McDonald,2,2 residential,,,,,Senate
+117,Tim Ayres,2,"1 investment/holiday, 1 residential",,,y,yes,Senate
+118,Tim Watts,2,"1 residential, 1 investment",,,y,No,House of Representatives
+119,Tim Wilson,2,"1 residential, 1 investment",,,y,,House of Representatives
+120,Tom Venning,2,2 residential properties,,,,,House of Representatives
+121,Tyron Whitten,2,2 investment,,,y,No,Senate
+122,Varun Ghosh,2,"1 residential, 1 investment",,,y,Yes,Senate
+123,Zali Steggall,2,"1 residential, 1 investment",,,y,Yes,House of Representatives
+124,Claire Clutterham,1,1 investment,,,y,,House of Representatives
+125,Gordon Reid,1,1 investment,,,y,yes,House of Representatives
+126,Jerome Laxale,1,1 investment,,,y,Yes,House of Representatives
+127,Rowan Holzberger,1,1 investment,,,y,,House of Representatives
+128,Sam Rae,1,1 investment,,,y,,House of Representatives
+129,Simon Kennedy,1,1 investment,,,y,,House of Representatives

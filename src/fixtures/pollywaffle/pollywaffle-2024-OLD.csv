@@ -1,0 +1,220 @@
+id,name,primaryvalue,category,type,metric_001
+0,"ABBOTT, Tony",1,residential,Liberal,656800
+1,"ABETZ, Eric",2,residential,Liberal,1313600
+2,"ALBANESE, Anthony",4,"residential, investment",Labor,2627200
+3,"ALEXANDER, John",1,residential,Liberal,656800
+4,"ALY, Anne",3,"residential, investment",Labor,1970400
+5,"ANDREWS, Karen",10,"residential, investment",Liberal,6568000
+6,"ANDREWS, Kevin",3,investment,Liberal,1970400
+7,"BACK, Chris",4,"residential, investment, holiday home",Liberal,2627200
+8,"BANDT, Adam",1,residential,Greens,656800
+9,"BANKS, Julia",5,"residential, investment",Liberal,3284000
+10,"BERNARDI, Cory",1,residential,Australian Conservatives,656800
+11,"BILYK, Catryna",5,"residential, investment",Labor,3284000
+12,"BIRD, Sharon",1,residential,Labor,656800
+13,"BIRMINGHAM, Simon",3,"residential, investment",Liberal,1970400
+14,"BISHOP, Julie",3,"residential, investment",Liberal,1970400
+15,"BOWEN, Chris",2,"residential, holiday home",Labor,1313600
+16,"BRANDIS, George",3,"residential, investment",LNP,1970400
+17,"BROAD, Andrew",2,"residential, agricultural",Nationals,1313600
+18,"BROADBENT, Russell",3,"residential, investment",Nationals,1970400
+19,"BRODTMANN, Gai",1,residential,Labor,656800
+20,"BROWN, Carol",3,"residential, investment",Labor,1970400
+21,"BUCHHOLZ, Scott",2,"residential, agricultural",LNP,1313600
+22,"BURKE, Tony",2,residential,Labor,1313600
+23,"BURNEY, Linda",4,"residential, investment",Labor,2627200
+24,"BURSTON, Brian",0,no property,One Nation,
+25,"BUSHBY, David",1,residential,Liberal,656800
+26,"BUTLER, Mark",2,residential,Labor,1313600
+27,"BYRNE, Anthony",1,residential,Labor,656800
+28,"CAMERON, Doug",3,residential,Labor,1970400
+29,"CANAVAN, Matt",1,"residential, investment",LNP,656800
+30,"CARR, Kim",3,investment,Labor,1970400
+31,"CASH, Michaelia",4,"residential, investment, holiday home",Liberal,2627200
+32,"CHALMERS, Jim",2,"residential, investment",Labor,1313600
+33,"CHAMPION, Nick",2,residential,Labor,1313600
+34,"CHESTER, Darren",4,residential,Nationals,2627200
+35,"CHESTERS, Lisa",2,"residential, investment",Labor,1313600
+36,"CHISHOLM, Anthony",1,"residential, investment",Labor,656800
+37,"CHRISTENSEN, George",0,no property,LNP,
+38,"CIOBO, Steve",2,"residential, investment",LNP,1313600
+39,"CLARE, Jason",1,residential,Labor,656800
+40,"CLAYDON, Sharon",2,residential,Labor,1313600
+41,"COLEMAN, David",2,"residential, investment",Liberal,1313600
+42,"COLLINS, Jacinta",3,residential,Labor,1970400
+,"COLLINS, Julie",,residential,Labor,656800
+43,"CONROY, Patrick",2,residential,Labor,1313600
+44,"CORMANN, Mathias",5,"residential, investment",Liberal,3284000
+45,"COULTON, Mark",3,"residential, investment",Nationals,1970400
+46,"CREWTHER, Chris",2,"residential, investment",Liberal,1313600
+47,"DANBY, Michael",1,residential,Labor,656800
+48,"DASTYARI, Sam",2,"residential, investment",Labor,1313600
+49,"DICK, Milton",2,"residential, investment",Labor,1313600
+50,"DINATALE, Richard",1,residential,Greens,656800
+,"DODSON, Pat",1,residential,Labor,656800
+51,"DREYFUS, Mark",2,"residential, investment",Labor,1313600
+52,"DRUM, Damian",5,"residential, investment, industrial",Nationals,3284000
+53,"DUNIAM, Jonathon",2,"residential, investment",Liberal,1313600
+54,"DUTTON, Peter",7,"residential, investment",Liberal,4597600
+55,"ELLIOT, Justine",3,"residential, investment",Labor,1970400
+56,"ELLIS, Kate",3,"residential, investment",Labor,1970400
+57,"ENTSCH, Warren",2,residential,LNP,1313600
+58,"EVANS, Trevor",1,residential,LNP,656800
+59,"FALINSKI, Jason",3,"residential, investment",Liberal,1970400
+60,"FARRELL, Don",3,"residential, agricultural",Labor,1970400
+61,"FAWCETT, David",3,"residential, investment",Liberal,1970400
+62,"FEENEY, David",3,"residential, investment",Labor,1970400
+63,"FIERRAVANTI-WELLS, Concetta",3,"residential, investment",Liberal,1970400
+64,"FIFIELD, Mitch",3,"residential, investment",Liberal,1970400
+65,"FITZGIBBON, Joel",5,"residential, investment, commercial",Labor,3284000
+66,"FLETCHER, Paul",1,residential,Liberal,656800
+67,"FLINT, Nicolle",0,no property,Liberal,
+68,"FREELANDER, Mike",4,"residential, commercial",Labor,2627200
+69,"FRYDENBERG, Josh",1,residential,Liberal,656800
+70,"GALLACHER, Alexander",1,residential,Labor,656800
+71,"GALLAGHER, Katy",1,residential,Labor,656800
+72,"GEE, Andrew",3,"residential, investment",Nationals,1970400
+73,"GEORGANAS, Steve",2,"residential, inherited property",Labor,1313600
+74,"GILES, Andrew",1,residential,Labor,656800
+75,"GILLESPIE, David",17,"residential, investment, commercial",Nationals,11165600
+76,"GOODENOUGH, Ian",7,"residential, investment, commercial",Liberal,4597600
+77,"GOSLING, Luke",1,residential,Labor,656800
+78,"GRIFF, Stirling",5,"residential, investment",Nick Xenophon Team,3284000
+79,"HAMMOND, Tim",2,"residential, investment",Labor,1313600
+80,"HANSON YOUNG, Sarah",1,residential,Greens,656800
+81,"HANSON, Pauline",2,"residential, investment, commercial",One Nation,1313600
+82,"HART, Ross",1,investment,Labor,656800
+83,"HARTSUKYER, Luke",1,residential,Nationals,656800
+84,"HASTIE, Andrew",1,residential,Liberal,656800
+85,"HAWKE, Alex",1,residential,Liberal,656800
+86,"HAYES, Chris",3,"residential, holiday home",Labor,1970400
+87,"HENDERSON, Sarah",1,residential,Liberal,656800
+88,"HILL, Julian",3,"residential, investment",Labor,1970400
+89,"HINCH, Derryn",2,"residential, investment",Derryn Hinch's Justice Party,1313600
+90,"HOGAN, Kevin",2,"investment, agricultural",Nationals,1313600
+91,"HOWARTH, Luke",2,"residential, investment",LNP,1313600
+92,"HUME, Jane",1,investment,Liberal,656800
+93,"HUNT, Greg",1,residential,Liberal,656800
+94,"HUSAR, Emma",1,residential,Labor,656800
+95,"HUSIC, Ed",1,"residential, investment",Labor,656800
+96,"IRONS, Steve",2,residential,Liberal,1313600
+97,"JONES, Stephen",2,"residential, agricultural",Labor,1313600
+98,"JOYCE, Barnaby",2,"residential, investment",Nationals,1313600
+99,"KAKOSCHKE-MOORE, Skye",4,investment,Nick Xenophon Team,2627200
+100,"KATTER, Bob",1,residential,Katter's Australian Party,656800
+101,"KEAY, Justine",1,residential,Labor,656800
+102,"KEENAN, Michael",1,residential,Liberal,656800
+103,"KELLY, Craig",1,"residential, investment",Liberal,656800
+104,"KELLY, Mike",2,residential,Labor,1313600
+105,"KEOGH, Matt",1,"residential, investment",Labor,656800
+106,"KETTER, Chris",3,investment,Labor,1970400
+107,"KHALIL, Peter",1,residential,Labor,656800
+108,"KING, Catherine",5,"residential, holiday home",Labor,3284000
+109,"KITCHING, Kimberley",0,no property,Labor,
+110,"LAMB, Susan",1,residential,Labor,656800
+111,"LAMBIE, Jacqui",1,residential,Jacqui Lambie Network,656800
+112,"LAMING, Andrew",3,"residential, investment",Liberal,1970400
+113,"LANDRY, Michelle",2,residential,LNP,1313600
+114,"LAUNDY, Craig",2,"residential, agricultural",Liberal,1313600
+115,"LEESER, Julian",1,residential,Liberal,656800
+116,"LEIGH, Andrew",1,residential,Labor,656800
+117,"LEY, Sussan",3,"residential, investment",Liberal,1970400
+118,"LEYONHJELM, David",3,"residential, agricultural",Liberal Democrats,1970400
+119,"LINES, Sue",4,"residential, investment",Labor,2627200
+120,"LITTLEPROUD, David",2,"residential, investment",LNP,1313600
+121,"LUDLAM, Scott",0,no property,Greens,
+122,"MACDONALD, Ian",2,"residential, investment",LNP,1313600
+123,"MACKLIN, Jenny",2,"residential, holiday home",Labor,1313600
+124,"MARINO, Nola",8,"residential, agricultural",Liberal,5254400
+125,"MARLES, Richard",3,"residential, investment",Labor,1970400
+126,"MARSHALL, Gavin",1,residential,Labor,656800
+127,"MCALLISTER, Jennifer",1,residential,Labor,656800
+128,"MCBRIDE, Emma",2,"residential, investment",Labor,1313600
+129,"MCCARTHY, Malarndirri",1,traditional land owner,Labor,656800
+130,"MCCORMACK, Michael",2,"residential, investment",Nationals,1313600
+131,"MCGOWAN, Cathy",2,"residential, investment",Independent,1313600
+132,"MCGRATH, James",2,"residential, investment",Liberal,1313600
+133,"MCKENZIE, Bridget",1,investment,Nationals,656800
+134,"MCKIM, Nick",3,"residential, investment, holiday home",Greens,1970400
+135,"MCVEIGH, John",2,"residential, investment",LNP,1313600
+136,"MITCHELL, Rob",1,residential,Labor,656800
+137,"MOORE, Claire",0,no property,Labor,
+138,"MORRISON, Scott",1,residential,Liberal,656800
+139,"MORTON, Ben",2,residential,Liberal,1313600
+140,"NASH, Fiona",3,"residential, agricultural",Nationals,1970400
+141,"NEUMANN, Shayne",2,investment,Labor,1313600
+142,"O'BRIEN, Llew",1,residential,LNP,656800
+143,"O'BRIEN, Ted",2,"residential, investment",LNP,1313600
+144,"O'CONNOR, Brendan",3,"residential, investment",Labor,1970400
+145,"O'DOWD, Ken",2,"residential, investment",Liberal,1313600
+146,"O'DWYER, Kelly",1,"investment, commercial",Liberal,656800
+147,"O'NEIL, Clare",1,"residential, investment",Labor,656800
+148,"O'NEILL, Deborah",6,"residential, investment, commercial, agricultural",Labor,3940800
+149,"O'SULLIVAN, Barry",32,"residential, investment",Nationals,21017600
+150,"O'TOOLE, Catherine",2,residential,Labor,1313600
+151,"OWENS, Julie",1,"residential, investment",Labor,656800
+152,"PARRY, Stephen",4,"residential, investment",Liberal,2627200
+153,"PASIN, Tony",4,residential,Liberal,2627200
+154,"PATERSON, James",1,residential,Liberal,656800
+155,"PAYNE, Marise",3,residential,Liberal,1970400
+156,"PERRETT, Graham",1,"residential, investment",Labor,656800
+157,"PITT, Keith",3,residential,LNP,1970400
+158,"PLIBERSEK, Tanya",2,"residential, investment",Labor,1313600
+159,"POLLEY, Helen",3,residential,Labor,1970400
+160,"PORTER, Christian",3,residential,Liberal,1970400
+161,"PRATT, Louise",1,residential,Labor,656800
+162,"PRENTICE, Jane",2,residential,LNP,1313600
+163,"PRICE, Melissa",2,"residential, investment",Liberal,1313600
+164,"PYNE, Christopher",2,"residential, investment",Liberal,1313600
+165,"RAMSEY, Rowan",3,"residential, holiday home",Liberal,1970400
+166,"REYNOLDS, Linda",2,residential,Liberal,1313600
+167,"RICE, Janet",2,"residential, holiday home",Greens,1313600
+168,"RISHWORTH, Amanda",3,"residential, investment",Labor,1970400
+169,"ROBERT, Stuart",1,residential,Liberal,656800
+170,"ROBERTS, Malcolm",1,"residential, investment",One Nation,656800
+171,"ROWLAND, Michelle",5,"residential, agricultural",Labor,3284000
+172,"RUSTON, Anne",2,residential,Liberal,1313600
+173,"RYAN, Joanne",1,residential,Labor,656800
+174,"RYAN, Scott",1,residential,Liberal,656800
+175,"SCULLION, Nigel",0,no property,Liberal,
+176,"SESELJA, Zed",1,residential,Liberal,656800
+177,"SHARKIE, Rebekha",1,residential,Nick Xenophon Team,656800
+178,"SHORTEN, Bill",1,residential,Labor,656800
+179,"SIEWERT, Rachel",2,residential,Greens,1313600
+180,"SINGH, Lisa",0,no property,Labor,
+181,"SINODINOS, Arthur",1,residential,Liberal,656800
+182,"SMITH, Dean",3,"residential, holiday home",Liberal,1970400
+183,"SNOWDON, Warren",2,"residential, investment",Labor,1313600
+184,"STANLEY, Anne",1,residential,Labor,656800
+185,"STERLE, Glenn",4,"residential, investment",Labor,2627200
+186,"SUDMALIS, Ann",2,residential,Liberal,1313600
+187,"SUKKAR, Michael",2,"residential, investment",Liberal,1313600
+188,"SWAN, Wayne",2,"residential, investment",Labor,1313600
+189,"SWANSON, Meryl",2,"residential, investment",Labor,1313600
+190,"TAYLOR, Angus",2,"residential, investment",Liberal,1313600
+191,"TEHAN, Dan",2,"residential, investment",Liberal,1313600
+192,"TEMPLEMAN, Susan",2,residential,Labor,1313600
+193,"THISTLETHWAITE, Matt",1,residential,Labor,656800
+194,"TUDGE, Alan",3,"residential, investment",Liberal,1970400
+195,"TURNBULL, Malcolm",4,"residential, investment, commercial, agricultural",Liberal,2627200
+196,"URQUHART, Anne",2,"residential, investment",Labor,1313600
+197,"VAMVAKINOU, Maria",4,"residential, investment",Labor,2627200
+198,"VAN MANEN, Bert",1,residential,LNP,656800
+199,"VASTA, Ross",3,investment,Liberal,1970400
+200,"WALLACE, Andrew",0,no property,LNP,
+201,"WATERS, Larissa",1,residential,Greens,656800
+202,"WATT, Murray",1,residential,Labor,656800
+203,"WATTS, Tim",1,residential,Labor,656800
+204,"WHISH WILSON, Peter",2,residential,Greens,1313600
+205,"WICKS, Lucy",1,investment,Liberal,656800
+206,"WILKIE, Andrew",1,residential,Independent,656800
+207,"WILLIAMS, John",2,"residential, investment",Nationals,1313600
+208,"WILSON, Josh",3,"residential, investment",Labor,1970400
+209,"WILSON, Rick",4,"investment, agricultural",Liberal,2627200
+210,"WILSON, Tim",4,"residential, investment",Liberal,2627200
+211,"WONG, Penny",3,residential,Labor,1970400
+212,"WOOD, Jason",2,"residential, investment",Liberal,1313600
+213,"WYATT, Ken",2,residential,Liberal,1313600
+214,"XENOPHON, Nick",5,"investment, commercial",Nick Xenophon Team,3284000
+215,"ZAPPIA, Tony",5,"residential, investment",Labor,3284000
+216,"ZIMMERMAN, Trent",0,no property,Liberal,

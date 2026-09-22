@@ -1,0 +1,80 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0.4rem;
+  pointer-events: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Starts after the balloon's own r/cx/cy expansion (600ms) is already
+   under way, rather than appearing instantly alongside it. */
+.reveal {
+  animation: expandedContentReveal 320ms ease-out 200ms both;
+}
+
+.fadeOut {
+  animation: expandedContentFadeOut 160ms ease-in both;
+}
+
+@keyframes expandedContentReveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes expandedContentFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.description {
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.92;
+}
+
+.cta {
+  margin-top: 0.1rem;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  opacity: 0.85;
+  pointer-events: auto;
+  color: inherit;
+}
+
+.cta:hover,
+.cta:focus-visible {
+  opacity: 1;
+}

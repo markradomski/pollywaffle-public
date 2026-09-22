@@ -1,0 +1,6 @@
+/* Minimal global reset: the browser UA stylesheet's default body margin
+   (~8px) would otherwise sit outside every page-level gutter and throw off
+   each example's own exact desktop padding measurement. */
+body {
+  margin: 0;
+}
