@@ -16,6 +16,8 @@ regression testing, visual comparison, and demonstrating that the engine
 supports more than one dataset — but it is not the product this app
 ships; see the "Engine reference: Snake Oil" link in the running app.
 
+![Pollywaffle balloon chart with the property-type/political-party filter panel open](./assets/screenshot-chart.png)
+
 ## Setup
 
 Requires Node.js 20+ (developed against Node 24) and npm.
